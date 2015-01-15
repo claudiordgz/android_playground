@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProgressBars</string>
+    <string name="welcome_text">How was your interview today?</string>
+    <string name="status_text">They liked me!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="question_array">
+        <item>How easy it was?</item>
+        <item>Did they ask you new questions?</item>
+        <item>How was the interviewer mood?</item>
+        <item>Was he a technical guy?</item>
+        <item>Do you think you won it?</item>
+        <item>How confident you feel about it?</item>
+        <item>Will they call you back?</item>
+        <item>What they said about you at the end?</item>
+    </string-array>
+
+</resources>
