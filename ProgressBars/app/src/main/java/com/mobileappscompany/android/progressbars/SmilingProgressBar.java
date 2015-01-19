@@ -34,6 +34,7 @@ public class SmilingProgressBar extends LinearLayout {
             public void onProgressChanged(SeekBar seekBar, int progress,
                                           boolean fromUser) {
                 setProgress(progress);
+
             }
         });
     }

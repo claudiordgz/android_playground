@@ -9,14 +9,14 @@
             android:id="@+id/WelcomeText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            style="@style/mapps_text_view.Main"
             android:text="@string/welcome_text"
-            android:layout_alignParentTop="true" />
+            android:layout_alignParentTop="true"/>
         <TextView
+            style="@style/mapps_text_view.Subtitle"
             android:id="@+id/ScreenTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:text="@string/status_text"
             android:layout_alignParentTop="true" />
         <LinearLayout
@@ -24,22 +24,38 @@
             android:layout_height="match_parent"
             android:layout_below="@id/ScreenTitle"
             android:orientation="vertical">
-            <view class="com.mobileappscompany.android.progressbars.SmilingProgressBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <com.mobileappscompany.android.progressbars.SmilingProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:id="@+id/custEasyView" />
-            <view class="com.mobileappscompany.android.progressbars.SmilingProgressBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <com.mobileappscompany.android.progressbars.SmilingProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/custAskNewQuestionView"/>
-            <view class="com.mobileappscompany.android.progressbars.SmilingProgressBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <com.mobileappscompany.android.progressbars.SmilingProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/custInterviewerMoodView"/>
-            <view class="com.mobileappscompany.android.progressbars.SmilingProgressBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <com.mobileappscompany.android.progressbars.SmilingProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/custTechnicalGuyView"/>
-            <view class="com.mobileappscompany.android.progressbars.SmilingProgressBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <com.mobileappscompany.android.progressbars.SmilingProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/custWonItView"/>
-            <view class="com.mobileappscompany.android.progressbars.SmilingProgressBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <com.mobileappscompany.android.progressbars.SmilingProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/custConfidentAboutView"/>
-            <view class="com.mobileappscompany.android.progressbars.SmilingProgressBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <com.mobileappscompany.android.progressbars.SmilingProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/custCallBackView"/>
-            <view class="com.mobileappscompany.android.progressbars.SmilingProgressBar" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <com.mobileappscompany.android.progressbars.SmilingProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/custTheySaidView"/>
         </LinearLayout>
     </LinearLayout>

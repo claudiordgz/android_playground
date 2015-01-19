@@ -1,8 +1,9 @@
 <resources>
-
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+    <style name="AppTheme" parent="AppTheme.Base">
         <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/mapps_text_list_view</item>
+
     </style>
 
 </resources>
