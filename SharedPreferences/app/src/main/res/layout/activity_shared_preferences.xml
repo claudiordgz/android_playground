@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout android:id="@+id/linearLayout0"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:text="User"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUser" android:layout_width="0dp"
+            android:layout_weight=".5" />
+
+        <EditText android:text="Password"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPassword"
+            android:layout_width="0dp"
+            android:layout_weight=".5" />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:id="@+id/linearLayout1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="match_parent">
+
+        <Button
+            android:text="Select"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSelect"
+            android:layout_width="0dp"
+            android:layout_weight=".3" />
+
+        <Button
+            android:text="Add"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_weight=".3" />
+
+        <Button android:text="Remove"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRemove"
+            android:layout_width="0dp"
+            android:layout_weight=".3" />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/linearLayout2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+
+</LinearLayout>
